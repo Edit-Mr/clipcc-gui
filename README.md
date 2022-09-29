@@ -25,20 +25,28 @@ ClipCC is a powerful scratch fork which adds some useful features such as new ex
 - Blockly optimization
 - custom stage size
 # Building
-**Please note! Please make sure you have installed Git and Node.js before building.**
+**Please note! Please make sure you have installed [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/) before building.**
 
+## Install only
 In your own node environment/application:
 ```bash
 yarn install https://github.com/Clipteam/clipcc-gui.git
 ```
+
+## edit/play yourself
 If you want to edit/play yourself:
+
 ```bash
 git clone https://github.com/Clipteam/clipcc-gui.git
 cd clipcc-gui
 yarn install
 ```
 
-Open a Command Prompt or Terminal in the repository and run:
+## run
+If you are a Windows user, double click `run.bat` to start. Your browser will automatically be opened
+
+
+otherwise, open a Command Prompt or Terminal in the repository and run:
 ```bash
 yarn start
 ```
